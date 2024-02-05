@@ -1,29 +1,16 @@
 package main
 
-import "fmt"
-
 func main() {
-	//basics() // $go run 0main.go 1basics.go
+	//* basics() // $go run 0main.go 1basics.go
+	//* conditionals()
+	//* loops()
+	//* arrays()
 
-	// --------
-
-	// conditionals()
-
-	// --------
-
-	// loops()
-
-	// --------
-
-	// arrays()
-
-	// --------
-
+	//* slices -arraylists-
 	//slices() // arraylist karşılığı
 	//slices2()
 
-	// --------
-
+	//* functions
 	// sum := functions1(3, 5)
 	// fmt.Println("", sum)
 
@@ -31,13 +18,27 @@ func main() {
 	// sum2, sub, mltp, _ = functions2(4, 2)    // if u dont wanna use a value returned, use _
 	// fmt.Println(sum2, sub, mltp, div)
 
-	sum3 := functions3(4, 4, 5, 6, 42, 43352) // use variadic funcs if u dont know how many param'll be given
-	sum4 := functions3(2, 3)
-	nums := []int{1, 2, 3, 4}
-	sum5 := functions3(nums...) // using arrays with variadic functions
+	// sum3 := functions3(4, 4, 5, 6, 42, 43352) // use variadic funcs if u dont know how many param'll be given
+	// sum4 := functions3(2, 3)
+	// nums := []int{1, 2, 3, 4}
+	// sum5 := functions3(nums...) // using arrays with variadic functions
 
-	fmt.Println(sum3, sum4, sum5)
+	// fmt.Println(sum3, sum4, sum5)
 
-	// --------
+	//* maps and for range(forEach)
+	//maps()
+	//forRange()
+	//forRange2()
+	//forRange3()
+
+	//* pointers
+	// number := 33
+	// pointers(&number)
+	// fmt.Println("Number in main:", number)
+
+	//* structs
+	structs2()
+
+	//* go routine
 
 }
