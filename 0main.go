@@ -37,8 +37,28 @@ func main() {
 	// fmt.Println("Number in main:", number)
 
 	//* structs
-	structs2()
+	//structs2()
 
-	//* go routine
+	//* go routines and channels, async programming
+	// channels are used to control/see when the processes are done
+	// oddNumberCn := make(chan int)
+	// evenNumberCn := make(chan int)
+	// go oddNumbers(oddNumberCn)   // "go" is used to make them work async
+	// go evenNumbers(evenNumberCn) // "go" is used to make them work async
+
+	// oddNumberSum, evenNumberSum := <-oddNumberCn, <-evenNumberCn // getting int values from int channels
+
+	// product := oddNumberSum * evenNumberSum
+	// fmt.Println("Their product:", product)
+
+	//* interfaces
+	// c := circle{radius: 5}
+	// r := rectangle{width: 10, height: 6}
+	// interfaces1(c) // takes a shape as parameter
+	// interfaces1(r)
+
+	interfaces2()
+
+	//*
 
 }
