@@ -57,8 +57,22 @@ func main() {
 	// interfaces1(c) // takes a shape as parameter
 	// interfaces1(r)
 
-	interfaces2()
+	//interfaces2()
 
-	//*
+	//* defer
+	// when we want some funcs to be called inside of a func.
+	// generally used for logging purposes or e.g closing the db connection
+	// b()
 
+	// var result = defer2(14)
+	// fmt.Println(result)
+	// defer3()
+
+	//* debugging
+	// errorHandling1()
+	// errorHandling2()
+	// errorHandling3()
+
+	//* string functions
+	stringFunctions()
 }
