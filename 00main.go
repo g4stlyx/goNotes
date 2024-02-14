@@ -74,5 +74,9 @@ func main() {
 	// errorHandling3()
 
 	//* string functions
-	stringFunctions()
+	// stringFunctions()
+
+	//* restful
+	// restful()
+	restful2()
 }
