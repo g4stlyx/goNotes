@@ -78,5 +78,12 @@ func main() {
 
 	//* restful
 	// restful()
-	restful2()
+	// restful2()
+
+	GetAllProducts()
+	// product := Product{4, "Phone", 1, 9999.99}
+	product2 := Product{Id: 5, ProductName: "Phone", CategoryId: 1, UnitPrice: 9999.99}
+	AddProduct(product2)
+	GetAllProducts()
+
 }

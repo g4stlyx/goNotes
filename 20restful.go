@@ -53,5 +53,4 @@ func restful2() { //post
 	var todo2 Todo
 	json.Unmarshal(bodyBytes, &todo2)
 	fmt.Println(todo)
-
 }
